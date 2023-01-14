@@ -12,10 +12,15 @@ At this moment the usage of Trackgram is extremly simple:
 
 2. Go through the instalation steps
 
-3. Change the parameters in the tracgram.py file directly:
-    - NICKNAME: your username on Instagram
-    - PASSWORD: your instagram password
-    - OBJECTIVE: your objective username
+3. Change the parameters in the tracgram main method directly:
+    + Mandatory:
+        - NICKNAME: your username on Instagram
+        - PASSWORD: your instagram password
+        - OBJECTIVE: your objective username
+
+    + Optional:
+        - path_to_csv: the path were the csv file will be stored, including the name
+
 
 4. Execute it with python3 tracgram.py
 
